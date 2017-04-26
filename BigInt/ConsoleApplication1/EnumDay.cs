@@ -6,11 +6,17 @@ using System.Threading.Tasks;
 
 namespace ConsoleApplication1
 {
-    class Program
+    class EnumDay
     {
-        static void Main(string[] args)
+        enum Days
         {
-            Console.WriteLine("AAAAAaaaaa");
+            Monday=1,
+            Tuesday,
+            Wednesday,
+            Thursday,
+            Friday,
+            Saturday,
+            Sunday
         }
     }
 }

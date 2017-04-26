@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApplication1
+namespace Triangle
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("AAAAAaaaaa");
+            Triangle
         }
     }
 }

@@ -4,13 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApplication1
+namespace ProjectCafe
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("AAAAAaaaaa");
+            Adress ad = new Adress("Atoyan", "5/1", "Yerevan", "Armenia", 40.1849657, 44.5272205);
+            Console.WriteLine(ad);
         }
     }
 }
